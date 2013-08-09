@@ -1,10 +1,10 @@
 <?php 
 /*
-* Plugin Name: Wordpress Enviroment Beacon
+* Plugin Name: Wordpress Environment Beacon
 * Plugin URL: https://github.com/joelgarciajr84/guijaste
 * Description: Plugin who shows complete localhost + php (enviroment) Information
 * Author: Joel Garcia Jr
-* Version: 1.0
+* Version: 1.1
 * Author URL: https://www.facebook.com/joel.garciajr
 */
 ?>

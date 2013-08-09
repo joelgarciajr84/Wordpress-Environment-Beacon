@@ -1,6 +1,6 @@
 <?php 
 
-	// Change save button labell on whoami custom post type
+	// Change save button label on whoami custom post type
 
 	add_filter( 'gettext', 'change_publish_button', 10, 2 );
 
