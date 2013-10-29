@@ -5,25 +5,25 @@ add_action( 'init', 'register_cpt_phpinfo' );
 function register_cpt_phpinfo() {
 
 $labels = array( 
-    'name' => _x( '', ''),
-    'singular_name' => _x( '',''),
-    'add_new' => _x('',''),
-    'add_new_item' => _x('',''),
-    'edit_item' => _x('',''),
-    'new_item' => _x('',''),
-    'view_item' => _x( '','' ),
-    'search_items' => _x( 'Search','' ),
-    'not_found' => _x( 'Nothing Found','' ),
-    'not_found_in_trash' => _x( 'Nothing Found','' ),
-    'parent_item_colon' => _x( 'Host Infos','' ),
-    'menu_name' => _x( 'php info','' ),
+    'name' => __('','wpeb'),
+    'singular_name' => __('','wpeb'),
+    'add_new' => __('','wpeb'),
+    'add_new_item' => __('','wpeb'),
+    'edit_item' => __('','wpeb'),
+    'new_item' => __('','wpeb'),
+    'view_item' => __('','wpeb'),
+    'search_items' =>__('Search','wpeb'),
+    'not_found' => __('Nothing Found','wpeb'),
+    'not_found_in_trash' =>__('Nothing Found','wpeb'),
+    'parent_item_colon' => __('Host Infos','wpeb'),
+    'menu_name' => __('PHP Info','wpeb'),
 
 );
 
 $args = array( 
     'labels' => $labels,
     'hierarchical' => true,
-    'description' => 'Show php info',
+    'description' => __('Show PHP Info','wpeb'),
     'supports' => array( ''),
     'taxonomies' => array( ''),
     'public' => true,
@@ -50,7 +50,7 @@ add_action( 'add_meta_boxes', 'phpinfo_add_meta_box' );
 function phpinfo_add_meta_box() {
 add_meta_box(
   'phpinfo_metaboxid',
-  'All Php Settings from this Server',
+  __('All Php Settings from this Server','wpeb'),
   'phpinfo_inner_meta_box',
   'phpinfo',
   'normal'

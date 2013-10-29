@@ -1,0 +1,76 @@
+# Copyright (C) 2013 WordPress Enviromnment Beacon
+# This file is distributed under the same license as the WordPress Enviromnment Beacon plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Enviromnment Beacon 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/wp-enviroment-beacon\n"
+"POT-Creation-Date: 2013-10-29 11:38:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: JANYNNE GOMES <JANYNNEGOMES@GMAIL.COM>\n"
+"Language-Team: pt_BR <LL@li.org>\n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: confs\save-button.php:10
+msgid "Save This Configuration"
+msgstr "Salvar essa configuração"
+
+#: custom-post-types\cpt-show-status.php:8
+#: custom-post-types\cpt-show-status.php:9
+msgid "Enviroment Informations"
+msgstr "Informações do Ambiente"
+
+#: custom-post-types\cpt-show-status.php:10
+msgid "View current settings of the environment"
+msgstr "Ver informações atuais do ambiente"
+
+#: custom-post-types\cpt-show-status.php:13
+msgid "New/Save - Configuration"
+msgstr "Nova/Salvar - Configuração"
+
+#: custom-post-types\cpt-show-status.php:14
+msgid "See configuration"
+msgstr "Ver Configuração"
+
+#: custom-post-types\cpt-show-status.php:15
+msgid "Search"
+msgstr "Pesquisar"
+
+#: custom-post-types\cpt-show-status.php:16
+#: custom-post-types\cpt-show-status.php:17
+msgid "Nothing Found"
+msgstr "Nada encontrado"
+
+#: custom-post-types\cpt-show-status.php:18
+msgid "Host Infos"
+msgstr "Informações do Host"
+
+#: custom-post-types\cpt-show-status.php:19
+msgid "Enviroment Settings"
+msgstr "Configurações do Ambiente"
+
+#: custom-post-types\cpt-show-status.php:26
+msgid "Show LocalHost Informations"
+msgstr "Exibir Informações do Host Local"
+
+#: custom-post-types\cpt-show-status.php:53
+msgid "LocalHost Informations"
+msgstr "Informações do Host Local"
+
+#: custom-post-types\cpt-show-status.php:53
+msgid "All Php Settings from this Server"
+msgstr "Todas as configurações PHP do servidor"
+
+#: custom-post-types\cpt-show-status.php:53
+msgid "PHP Infos"
+msgstr "PHP Infos"
+
+#: custom-post-types\cpt-show-status.php:53
+msgid "Show PHP Info"
+msgstr "Exibir PHP Info"
+
+#: confs\menu-page.php:12
+msgid "All WP Settings"
+msgstr "Todas as Info do Wordpress"
