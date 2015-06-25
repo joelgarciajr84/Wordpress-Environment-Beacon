@@ -41,8 +41,7 @@ $args = array(
     );
     register_post_type( 'phpinfo', $args );
 }
-?>
-<?php
+
 // metabox to show phpinfo()
 
 add_action( 'add_meta_boxes', 'phpinfo_add_meta_box' );
