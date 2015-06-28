@@ -60,4 +60,3 @@ function phpinfo_inner_meta_box( $phpinfo ) {
  phpinfo();
 
 }
-?>
