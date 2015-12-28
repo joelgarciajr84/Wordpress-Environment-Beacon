@@ -26,4 +26,3 @@ add_menu_page( __('PHP Infos','wpeb'),
     '103');
 }
 add_action( 'admin_menu','menu' );
-?>
